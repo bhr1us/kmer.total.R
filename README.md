@@ -1,8 +1,12 @@
 # kmer.total.R
 kmer.total.R is an R script that compares unique kmers from two genomes
 
-##Input
+##Files
+kmer6.total.R takes two input files of relatively similar size and generates a report including number of similar kmers and distance
+
+kmer7.total.R takes two kmer lists: should include reference sequence (maybe from complete or draft sequence) and test sequence (used for kmers from raw reads) and reports number of similar kmers compared to reference sequence
+
+##Input files
 kmer.total.R takes kAnalyze output files for two genome sequences
 
-##Output
-kmer.total.R writes a text file containing % differences in unique kmers between two genomes
+
